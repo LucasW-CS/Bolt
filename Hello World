@@ -1,4 +1,12 @@
-//Programmer: Lucas Winfrey
+//Programmer: Lincoln Hess
 //Date: 1.8.2025
 //Program: Hello World
-//Hardware: Bolt
+//Hardware: Bolt #SB-B2F8
+
+async function startProgram() {
+	await speak("Sup Sigmas", true);
+	setMainLed({ r: 0, g: 255, b: 0});
+	setSpeed(60);
+	await delay (4.25);
+	setSpeed(0);
+}
