@@ -1,27 +1,29 @@
-//Team Members: Lucas Winfrey & Lincoln Hess
+//Team Members: Lincoln Hess & Lucas Winfrey
 //Date: 1.14.2025
 //Program: Pre-Competition
 //Hardware: Bolt #SB-B2F8
 
-//Start
-//Bolt Will say Start across the LED's
-//Driver: Lincoln Hess
+//beginProgram
+async function startProgram()
+
+//Start & Say Start
+//Bolt will say Start acrossed the LED's & Say it out loud
+//Driver:: Lincoln Hess
 //Navigator: Lucas Winfrey
 
-
-
-
+	await speak("Start", true);
+	await scrollMatrixText('Start', { r: 66, g: 56, b: 255 }, 30, true)
 
 //Red
-//Bolt LED will turn Red
-//Driver: Lucas Winfrey
+//Bolts LED will turn Red
+//Driver:: Lucas Winfrey
 //Navigator: Lincoln Hess
 
 
 
 
-//Foward and turn 90 degrees and forward
-//Driver: Lincoln Hess
+//Forward & turn 90 degrees and forward again
+//Driver:: Lincoln Hess
 //Navigator: Lucas Winfrey
 
 
@@ -29,5 +31,9 @@
 
 
 //Play Sound
-//Driver: Lucas Winfrey
+//Driver:Lucas Winfrey
 //Navigator: Lincoln Hess
+
+
+//endProgram
+}
