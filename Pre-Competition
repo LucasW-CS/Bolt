@@ -23,7 +23,7 @@ async function startProgram() {
 
 	setMainLed({ r: 255, g: 0, b: 0 });
 
-*/
+
 
 //Forward & turn 90 degrees and forward again
 //Driver:: Lincoln Hess
@@ -34,11 +34,11 @@ async function startProgram() {
 	await roll(90, 60, 1);
 	return;
 
-
+*/
 //Play Sound
 //Driver:Lucas Winfrey
 //Navigator: Lincoln Hess
-
+	await Sound.Animal.Monkey.play(true);
 
 //Figure Eight
 //Driver:: Lincoln Hess
