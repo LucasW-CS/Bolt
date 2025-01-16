@@ -15,7 +15,7 @@ async function startProgram() {
 	await scrollMatrixText('Start', { r: 66, g: 56, b: 255 }, 30, true);
 
 
-*/
+
 //Red
 //Bolts LED will turn Red
 //Driver:: Lucas Winfrey
@@ -23,13 +23,16 @@ async function startProgram() {
 
 	setMainLed({ r: 255, g: 0, b: 0 });
 
+*/
 
 //Forward & turn 90 degrees and forward again
 //Driver:: Lincoln Hess
 //Navigator: Lucas Winfrey
 
-
-
+	setSpeed(60);
+	await delay(1.5);
+	await roll(90, 60, 1);
+	return;
 
 
 //Play Sound
