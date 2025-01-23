@@ -2,55 +2,35 @@
 //Date: 1.14.2025
 //Program: Pre-Competition
 //Hardware: Bolt #SB-B2F8
-
 //beginProgram
 async function startProgram() {
-
 //Start & Say Start
 //Bolt will say Start acrossed the LED's & Say it out loud
 //Driver:: Lincoln Hess
 //Navigator: Lucas Winfrey
-
 	await speak("Start", true);
 	await scrollMatrixText('Start', { r: 66, g: 56, b: 255 }, 30, true);
-
-
-
 //Red
 //Bolts LED will turn Red
 //Driver:: Lucas Winfrey
 //Navigator: Lincoln Hess
-
 	setMainLed({ r: 255, g: 0, b: 0 });
-
-
-
 //Forward & turn 90 degrees and forward again
 //Driver:: Lincoln Hess
 //Navigator: Lucas Winfrey
-
 	setSpeed(60);
 	await delay(1.5);
 	await roll(90, 60, 1);
-
-
-
 //Play Sound
 //Driver:Lucas Winfrey
 //Navigator: Lincoln Hess
 	await delay(0.5);
 	await Sound.Animal.Monkey.play(true);
-
 //Figure Eight
 //Driver:: Lincoln Hess
 //Navigator: Lucas Winfrey
-
-
-
-
 //Star
 //Driver:Lucas Winfrey
 //Navigator: Lincoln Hess
-
 //endProgram
 }
