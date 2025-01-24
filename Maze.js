@@ -12,7 +12,8 @@ async function startProgram() {
 //Driver: Lucas Winfrey
 //Navigator: Lincoln Hess
 
-
+await speak("Start", true);
+	await scrollMatrixText('Start', { r: 66, g: 56, b: 255 }, 30, true);
 
 
 //Green Checkpoint
