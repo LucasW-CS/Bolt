@@ -1,4 +1,5 @@
 
+
 //Team Members: Lincoln Hess & Lucas Winfrey
 //Date: 1.24.2025
 //Program: Maze
@@ -21,6 +22,11 @@ await speak("Start", true);
 //Driver: Lincoln Hess
 //Navigator: Lucas Winfrey
 
+await setSpeed(60);
+	await delay(2.65);
+	await setSpeed(0);
+	await delay(1);
+	await setMainLed({ r: 0, g: 255, b: 0 });
 
 
 
