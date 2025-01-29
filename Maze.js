@@ -22,7 +22,7 @@ await speak("Start", true);
 //Navigator: Lucas Winfrey
 
 await setSpeed(30);
-	await delay(5.2);
+	await delay(5.16);
 	await setSpeed(0);
 	await delay(1);
 	await setMainLed({ r: 0, g: 255, b: 0 });
@@ -35,17 +35,20 @@ await setSpeed(30);
 //Navigator: Lincoln Hess
 
 	await spin(90,1);
-	await roll(90,50,1.78);
+	await roll(90,50,1.6);
 	await spin(90,1);
-	await roll(180,30,1.78);
+	await roll(180,30,1.76);
 	await Sound.Animal.Monkey.play(true);
 
-	
+
 //Red Checkpoint
 //LED's turn Red
 //Driver: Lincoln Hess
 //Navigator: Lucas Winfrey
 
+	await spin(45,1);
+	await roll(225,30,1.95);
+	await setMainLed({ r: 255, g: 0, b: 0 });
 
 
 
