@@ -1,4 +1,3 @@
-
 //Team Members: Lincoln Hess & Lucas Winfrey
 //Date: 1.24.2025
 //Program: Maze
@@ -21,10 +20,8 @@ await speak("Start", true);
 //Driver: Lincoln Hess
 //Navigator: Lucas Winfrey
 
-await setSpeed(30);
-	await delay(5.16);
-	await setSpeed(0);
-	await delay(1);
+	await roll(0, 74, 1.8),
+	await delay(1),
 	await setMainLed({ r: 0, g: 255, b: 0 });
 
 
@@ -35,27 +32,18 @@ await setSpeed(30);
 //Navigator: Lincoln Hess
 
 	await spin(90,1);
+	await roll(90,50,1.6);
 	await roll(90,50,1.8);
 	await spin(90,1);
+	await roll(180,30,1.76);
 	await roll(180,30,1.8);
 	await Sound.Animal.Monkey.play(true);
 
 
-//Red Checkpoint
-//LED's turn Red
-//Driver: Lincoln Hess
-//Navigator: Lucas Winfrey
-
-	await spin(45,1);
-	await roll(225,30,1.95);
-	await setMainLed({ r: 255, g: 0, b: 0 });
-
-
-
-//Sound #2 Checkpoint
-//Bolt makes sound of choice - Update Sound
 //Driver: Lucas Winfrey
 //Navigator: Lincoln Hess
+
+
 
 	await spin(-90,1);
 	await roll(135,30,1.32);
