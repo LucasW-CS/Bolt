@@ -21,7 +21,7 @@ await speak("Start", true);
 //Navigator: Lucas Winfrey
 
 await setSpeed(30);
-	await delay(5.35);
+	await delay(5.4);
 	await setSpeed(0);
 	await delay(1);
 	await setMainLed({ r: 0, g: 255, b: 0 });
@@ -34,7 +34,8 @@ await setSpeed(30);
 //Navigator: Lincoln Hess
 
 	await spin(90,1);
-	await roll(90,50,1.75);
+	await roll(90,50,1.89);
+	await delay(1);
 	await spin(90,1);
 	await roll(180,30,1.5);
 	await Sound.Animal.Monkey.play(true);
@@ -45,8 +46,8 @@ await setSpeed(30);
 //Driver: Lincoln Hess
 //Navigator: Lucas Winfrey
 
-	await spin(45,1);
-	await roll(225,30,1.95);
+	await spin(40,1);
+	await roll(220,30,2);
 	await setMainLed({ r: 255, g: 0, b: 0 });
 
 
@@ -56,6 +57,11 @@ await setSpeed(30);
 //Driver: Lucas Winfrey
 //Navigator: Lincoln Hess
 
+	await spin(-89,1);
+	await roll(131,30,1.36);
+	await spin(-90,1);
+	await roll(41,30,2);
+	await Sound.Animal.Donkey.play(true);
 
 
 
