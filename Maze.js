@@ -47,6 +47,7 @@ await setSpeed(30);
 //Navigator: Lucas Winfrey
 
 	await spin(40,1);
+	await delay(1);
 	await roll(220,30,2);
 	await setMainLed({ r: 255, g: 0, b: 0 });
 
@@ -70,8 +71,10 @@ await setSpeed(30);
 //Driver: Lincoln Hess
 //Navigator: Lucas Winfrey
 
-
-
+	await spin(90,1);
+	await roll(131,30,2);
+	await spin(45,1)
+	await roll(176,29,2);
 
 //Sound #3 Checkpoint
 //Bolt makes sound of choice - Update Sound
