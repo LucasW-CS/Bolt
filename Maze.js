@@ -21,7 +21,7 @@ await speak("Start", true);
 //Navigator: Lucas Winfrey
 
 await setSpeed(30);
-	await delay(5.4);
+	await delay(5.45);
 	await setSpeed(0);
 	await delay(1);
 	await setMainLed({ r: 0, g: 255, b: 0 });
@@ -34,10 +34,10 @@ await setSpeed(30);
 //Navigator: Lincoln Hess
 
 	await spin(90,1);
-	await roll(90,50,1.89);
+	await roll(90,50,1.93);
 	await delay(1);
 	await spin(90,1);
-	await roll(180,30,1.5);
+	await roll(180,30,1.7);
 	await Sound.Animal.Monkey.play(true);
 
 
@@ -47,8 +47,7 @@ await setSpeed(30);
 //Navigator: Lucas Winfrey
 
 	await spin(40,1);
-	await delay(1);
-	await roll(220,30,2);
+	await roll(220,30,2.3);
 	await setMainLed({ r: 255, g: 0, b: 0 });
 
 
@@ -58,10 +57,10 @@ await setSpeed(30);
 //Driver: Lucas Winfrey
 //Navigator: Lincoln Hess
 
-	await spin(-89,1);
+	await spin(-89,0.9);
 	await roll(131,30,1.36);
 	await spin(-90,1);
-	await roll(41,30,2);
+	await roll(41,30,2.5
 	await Sound.Animal.Donkey.play(true);
 
 
@@ -74,7 +73,9 @@ await setSpeed(30);
 	await spin(90,1);
 	await roll(131,30,2);
 	await spin(45,1)
-	await roll(176,29,2);
+	await roll(176,29,1.2);
+	await setMainLed({ r: 255, g: 0 b: 255 });
+
 
 //Sound #3 Checkpoint
 //Bolt makes sound of choice - Update Sound
